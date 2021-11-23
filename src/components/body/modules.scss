@@ -1,0 +1,207 @@
+@import 'src/styles/variables.scss';
+
+//program
+.ibm-gtc-program {
+	min-height: 13rem;
+	background-color: $ui-07;
+	color: $text-04;
+	.ibm-gtc-program-col1 {
+		padding: $spacing-09 0;
+		@include carbon--type-style('productive-heading-02');
+	}
+	.ibm-gtc-program-col2 {
+		padding: $spacing-09 0;
+		.ibm-gtc-program-col2-title {
+			@include carbon--type-style('productive-heading-04');
+			padding-bottom: $spacing-05;
+		}
+	}
+	.ibm-gtc-program-col3-container {
+		padding-right: 0;
+		.ibm-gtc-program-col3 {
+			background-color: $ui-12;
+			color: $text-04;
+			padding: $spacing-09 0 $spacing-09 10%;
+			height: 100%;
+			svg {
+				height: 46px;
+				width: 46px;
+			}
+			.ibm-gtc-program-col3-title {
+				@include carbon--type-style('productive-heading-02');
+				padding: $spacing-05 0 $spacing-03;
+			}
+			.ibm-gtc-program-col3-dates {
+				@include carbon--type-style('productive-heading-03');
+			}
+		}
+	}
+}
+
+//about
+.ibm-gtc-about-container {
+	color: $text-01;
+	padding: $spacing-07 $spacing-01;
+	min-height: 28rem;
+	.ibm-gtc-about {
+		padding-right: $spacing-05;
+		white-space: break-spaces;
+	}
+	h1 {
+		@include carbon--type-style('productive-heading-04');
+		padding-top: $spacing-03;
+	}
+}
+
+//target
+.ibm-gtc-target {
+	min-height: 10rem;
+	.ibm-gtc-target-col1 {
+		padding: $spacing-09 0;
+		@include carbon--type-style('productive-heading-02');
+	}
+	.ibm-gtc-target-col2 {
+		padding: $spacing-09 0;
+		.ibm-gtc-program-col2-title {
+			@include carbon--type-style('productive-heading-04');
+			padding-bottom: $spacing-05;
+		}
+	}
+}
+
+//topic
+.ibm-gtc-topic {
+	background: $ui-10;
+	.ibm-gtc-topic-col1 {
+		padding: $spacing-09 0;
+		@include carbon--type-style('productive-heading-02');
+	}
+	.ibm-gtc-topic-col2 {
+		padding: $spacing-09 0;
+		.ibm-gtc-program-col2-title {
+			@include carbon--type-style('productive-heading-04');
+			padding-bottom: $spacing-05;
+		}
+		white-space: break-spaces;
+	}
+}
+
+//schedule
+.ibm-gtc-schedule-container {
+	padding: $spacing-07 0;
+	min-height: 18rem;
+	background-color: $ui-07;
+	color: $text-04;
+	.ibm-gtc-schedule {
+		padding-right: $spacing-05;
+	}
+	.ibm-gtc-schedule-preEvent {
+		padding-bottom: $spacing-07;
+		.ibm-gtc-scheduler-hdr {
+			background: $ui-13;
+		}
+	}
+	.ibm-gtc-schedule-event .ibm-gtc-scheduler-hdr {
+		background: $ui-09;
+	}
+	h1 {
+		@include carbon--type-style('productive-heading-04');
+		padding-top: $spacing-03;
+	}
+	.ibm-gtc-scheduler-card {
+		margin-bottom: $spacing-03;
+		.ibm-gtc-scheduler-hdr {
+			border: 1px solid $ui-08;
+			padding: $spacing-03;
+			color: $text-04;
+		}
+		.ibm-gtc-scheduler-body {
+			padding: $spacing-05;
+			border: 1px solid $ui-08;
+			border-top: none;
+			min-height: 10rem;
+			white-space: break-spaces;
+			h2 {
+				@include carbon--type-style('productive-heading-03');
+				min-height: 50px;
+			}
+			p {
+				@include carbon--type-style('body-short-01');
+				padding: $spacing-05 0;
+				min-height: 6rem;
+			}
+			.ibm-gtc-user-sec{
+				margin: $spacing-03 0 $spacing-02 0;
+				display: flex;
+				svg {
+					margin-right: $spacing-03;
+				}
+				span {
+					@include carbon--type-style('label-01');
+					vertical-align: top;
+				}
+			}
+		
+		}
+	}
+}
+
+//connect
+.ibm-gtc-connect {
+	padding: $spacing-07 0;
+	background: $ui-10;
+	min-height: 52rem;
+	h1 {
+		@include carbon--type-style('productive-heading-04');
+		padding-top: $spacing-03;
+	}
+	.ibm-gtc-connect-module {
+		margin: $spacing-05 0 0;
+		background-color: $ui-14;
+		&:hover {
+			svg {
+				fill:$interactive-03;
+			}
+		}
+		img {
+			height: 14rem;
+			width:100%;
+		}
+		.ibm-gtc-connect-user {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: $spacing-03 $spacing-05;
+			min-height: $spacing-10;
+			@include carbon--type-style('productive-heading-02');
+		}
+		.ibm-gtc-connect-user-designation {
+			@include carbon--type-style('body-short-01');
+			padding: 0 $spacing-05 $spacing-05;
+			white-space: break-spaces;
+		}
+	}
+	h4 {
+		@include carbon--type-style('productive-heading-02');
+		padding: $spacing-07 0;
+	}
+	p {
+		white-space: break-spaces;
+	}
+}
+
+//contact
+.ibm-gtc-contact {
+	text-align: center;
+	background: $ui-07;
+	color: $text-04;
+	padding: $spacing-09;
+	.ibm-gtc-contact-title {
+		font-size: 28px;
+		padding-bottom: $spacing-05;
+	}
+	.ibm-gtc-contact-link {
+		color: $text-04;
+		text-decoration: underline;
+	}
+}
