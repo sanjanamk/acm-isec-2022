@@ -158,6 +158,7 @@
 	.ibm-gtc-connect-module {
 		margin: $spacing-05 0 0;
 		background-color: $ui-14;
+		height: 100%;
 		&:hover {
 			svg {
 				fill:$interactive-03;
