@@ -6,7 +6,7 @@ export const ISLGTS = {
 			"link": "https://docs.google.com/forms/d/e/1FAIpQLSf-iBv-At7CZjiggW1FpWHjXePyJDy_Vpw7mlcLAGqm39tqeA/viewform",
 			"disable": true
 		},
-		"warning": "Registration closes on November 17, 2021"
+		"warning": "Registration will open soon"
 	},
 	"tabs": [
 		{
