@@ -3,10 +3,12 @@ import { Tabs, Tab } from 'carbon-components-react';
 import localeContext from '../../context/localeContext';
 import About from "./about";
 import Program from "./program";
+import Schedule from './schedule';
+import Talks from './talks';
+import Panel from './panel';
 import Target from "./target";
 import Topic from "./topic";
 import Contact from "./contact";
-import Schedule from './schedule';
 import Connect from './connect';
 import './body.scss';
 import './modules.scss';
@@ -15,9 +17,11 @@ export default function Body() {
 	const locales = useContext(localeContext);
 	const refObject = {
 		program: useRef(),
+		schedule: useRef(),
+		talks: useRef(),
+		panel: useRef(),
 		target: useRef(),
 		topic: useRef(),
-		schedule: useRef(),
 		contact: useRef()
 	}
 
@@ -57,14 +61,20 @@ export default function Body() {
 			<div className="ibm-gtc-program-container" ref={refObject.program}>
 				<Program />
 			</div>
+			<div className="ibm-gtc-schedule-container" ref={refObject.schedule}>
+				<Schedule />
+			</div>
+			<div className="ibm-gtc-talks-container" ref={refObject.talks}>
+				<Talks />
+			</div>
+			<div className="ibm-gtc-panel-container" ref={refObject.panel}>
+				<Panel />
+			</div>
 			<div className="ibm-gtc-target-container" ref={refObject.target}>
 				<Target />
 			</div>
 			<div className="ibm-gtc-topic-container" ref={refObject.topic}>
 				<Topic />
-			</div>
-			<div className="ibm-gtc-schedule-container" ref={refObject.schedule}>
-				<Schedule />
 			</div>
 			<div className="ibm-gtc-connect-container" ref={refObject.contact}>
 				<Connect />

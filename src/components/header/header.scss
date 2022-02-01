@@ -15,7 +15,7 @@
 }
 
 .ibm-gtc-hdr-headbnd-sec {
-	min-height: 20rem;
+	min-height: 17rem;
 	background-color: $ui-05;
 	position: relative;
 	button {
@@ -39,16 +39,21 @@
 			position: relative;
 			h1 {
 				@include carbon--type-style('expressive-heading-06');
-				padding-top:$spacing-09;
+				padding-top: $spacing-07;
 			}
 			h2 {
 				@include carbon--type-style('expressive-heading-05');
 				font-weight:300;
 				padding-top:$spacing-04;
 			}
+			h4 {
+				@include carbon--type-style('expressive-heading-03');
+				padding-top:$spacing-05;
+				color: $ui-15;
+			}
 			p {
 				width: 65%;
-				padding:$spacing-10 0 $spacing-07 0;
+				padding-bottom: $spacing-07;
 			}
 			@media (max-width: map-get($ibm-gtc--grid-breakpoints, md)) {
 				p {

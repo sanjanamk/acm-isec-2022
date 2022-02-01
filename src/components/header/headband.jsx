@@ -23,6 +23,7 @@ export default function HeadBand() {
 					<div className="ibm-gtc-headband-title">
 						<h1>{locales.headband.title}</h1>
 						<h2>{locales.headband.subtitle}</h2>
+						<h4>{locales.headband.date}</h4>
 					</div>
 					<p>
 						{locales.headband.content}

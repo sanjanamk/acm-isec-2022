@@ -53,45 +53,10 @@
 	}
 }
 
-//target
-.ibm-gtc-target {
-	min-height: 10rem;
-	.ibm-gtc-target-col1 {
-		padding: $spacing-09 0;
-		@include carbon--type-style('productive-heading-02');
-	}
-	.ibm-gtc-target-col2 {
-		padding: $spacing-09 0;
-		.ibm-gtc-program-col2-title {
-			@include carbon--type-style('productive-heading-04');
-			padding-bottom: $spacing-05;
-		}
-	}
-}
-
-//topic
-.ibm-gtc-topic {
-	background: $ui-10;
-	.ibm-gtc-topic-col1 {
-		padding: $spacing-09 0;
-		@include carbon--type-style('productive-heading-02');
-	}
-	.ibm-gtc-topic-col2 {
-		padding: $spacing-09 0;
-		.ibm-gtc-program-col2-title {
-			@include carbon--type-style('productive-heading-04');
-			padding-bottom: $spacing-05;
-		}
-		white-space: break-spaces;
-	}
-}
-
 //schedule
 .ibm-gtc-schedule-container {
 	padding: $spacing-07 0;
 	min-height: 18rem;
-	background-color: $ui-07;
-	color: $text-04;
 	.ibm-gtc-schedule {
 		padding-right: $spacing-05;
 	}
@@ -146,11 +111,133 @@
 	}
 }
 
+//talks
+.ibm-gtc-talks-container {
+	padding: $spacing-07 0;
+	background: $ui-10;
+	min-height: 18rem;
+	h1 {
+		@include carbon--type-style('productive-heading-04');
+		padding-top: $spacing-03;
+	}
+	h3 {
+		@include carbon--type-style('expressive-heading-03');
+		font-weight: 600;
+	}
+	p {
+		padding: $spacing-05 $spacing-07 $spacing-05 0;
+		white-space: break-spaces;
+	}
+	.ibm-gtc-talks-module {
+		margin: $spacing-05;
+		background-color: $ui-14;
+		&:hover {
+			svg {
+				fill:$interactive-03;
+			}
+		}
+		img {
+			height: 14rem;
+			width:100%;
+		}
+		.ibm-gtc-talks-user {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: $spacing-03 $spacing-05;
+			min-height: $spacing-09;
+			@include carbon--type-style('productive-heading-02');
+		}
+		.ibm-gtc-talks-user-designation {
+			@include carbon--type-style('body-short-01');
+			padding: 0 $spacing-05 $spacing-05;
+			white-space: break-spaces;
+		}
+	}
+}
+
+//panel
+.ibm-gtc-panel {
+	padding: $spacing-07 0;
+	min-height: 28rem;
+	h1 {
+		@include carbon--type-style('productive-heading-04');
+		padding-top: $spacing-03;
+	}
+	.ibm-gtc-panel-module {
+		margin: $spacing-05 0 0;
+		background-color: $ui-14;
+		height: 100%;
+		&:hover {
+			svg {
+				fill:$interactive-03;
+			}
+		}
+		img {
+			height: 14rem;
+			width:100%;
+		}
+		.ibm-gtc-panel-user {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: $spacing-03 $spacing-05;
+			min-height: $spacing-10;
+			@include carbon--type-style('productive-heading-02');
+		}
+		.ibm-gtc-panel-user-designation {
+			@include carbon--type-style('body-short-01');
+			padding: 0 $spacing-05 $spacing-05;
+			white-space: break-spaces;
+		}
+	}
+	h4 {
+		@include carbon--type-style('productive-heading-02');
+		padding: $spacing-07 0;
+	}
+	p {
+		white-space: break-spaces;
+	}
+}
+
+//target
+.ibm-gtc-target {
+	min-height: 10rem;
+	background: $ui-10;
+	.ibm-gtc-target-col1 {
+		padding: $spacing-09 0;
+		@include carbon--type-style('productive-heading-02');
+	}
+	.ibm-gtc-target-col2 {
+		padding: $spacing-09 0;
+		.ibm-gtc-program-col2-title {
+			@include carbon--type-style('productive-heading-04');
+			padding-bottom: $spacing-05;
+		}
+	}
+}
+
+//topic
+.ibm-gtc-topic {
+	.ibm-gtc-topic-col1 {
+		padding: $spacing-09 0;
+		@include carbon--type-style('productive-heading-02');
+	}
+	.ibm-gtc-topic-col2 {
+		padding: $spacing-09 0;
+		.ibm-gtc-program-col2-title {
+			@include carbon--type-style('productive-heading-04');
+			padding-bottom: $spacing-05;
+		}
+		white-space: break-spaces;
+	}
+}
+
 //connect
 .ibm-gtc-connect {
 	padding: $spacing-07 0;
 	background: $ui-10;
-	min-height: 52rem;
+	min-height: 28rem;
 	h1 {
 		@include carbon--type-style('productive-heading-04');
 		padding-top: $spacing-03;
