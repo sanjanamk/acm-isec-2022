@@ -123,7 +123,7 @@ export const ISLGTS = {
 				"designation": "Applied Research\nSwiggy"
 			},
 			{
-				"img": "profile",
+				"img": "ashok",
 				"name": "Ashok Pon Kumar",
 				"social": "linkedin",
 				"link": "https://www.linkedin.com/in/ashokponkumar/",
