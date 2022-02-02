@@ -7,7 +7,7 @@ export const ISLGTS = {
 			"link": "https://isoft.acm.org/isec2022/registration",
 			"disable": false
 		},
-		"warning": "Registration will open soon"
+		"warning": ""
 	},
 	"tabs": [
 		{
