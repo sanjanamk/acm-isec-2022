@@ -123,7 +123,7 @@ export const ISLGTS = {
 				"designation": "Applied Research\nSwiggy"
 			},
 			{
-				"img": "ashok",
+				"img": "profile",
 				"name": "Ashok Pon Kumar",
 				"social": "linkedin",
 				"link": "https://www.linkedin.com/in/ashokponkumar/",
@@ -153,8 +153,7 @@ export const ISLGTS = {
 		"header": "Topics of Interest",
 		"desc": "The workshop welcomes contributions on the topics mentioned below but is also open to new questions regarding program equivalence. This includes general Software engineering research areas.\n\n" +
 		"•	Software Engineering & Machine Learning\n" +
-		"•	Software Engineering & AI\n\n" +
-		"More details can be found here: <to be shared> "
+		"•	Software Engineering & AI"
 	},
 	"connect": {
 		"header": "Connect With Us!",
