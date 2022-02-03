@@ -130,14 +130,14 @@ export const ISLGTS = {
 				"designation": "Manager\nIBM Research"
 			},
 			{
-				"img": "ramasubramanian",
+				"img": "ram",
 				"name": "Ram Subramanian",
 				"social": "linkedin",
 				"link": "https://www.linkedin.com/in/ramasubramaniannv/",
 				"designation": "Vice President\nCitibank"
 			},
 			{
-				"img": "profile",
+				"img": "sriharsha",
 				"name": "Sriharsha Jana",
 				"social": "linkedin",
 				"link": "https://www.linkedin.com/in/sriharsha-jana/",
